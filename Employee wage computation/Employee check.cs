@@ -13,14 +13,18 @@ namespace Employee_wage_computation
             int EMP_RATE_PER_HOUR = 20;
 
             int IS_FULL_TIME = 1;
-        
+            int IS_PART_TIME = 2;
             int empHours = 0;
             int empWages = 0;
             Random rdm = new Random();
-            int empCheck = rdm.Next(2);
+            int empCheck = rdm.Next(3);
             if(empCheck == IS_FULL_TIME) 
             {
                 empHours = 8;
+            }
+            else if(empCheck == IS_PART_TIME)
+            {
+                empHours = 4;
             }
             else 
             {
