@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\Day_3\Employee Wage Computation\Employee wage computation\Employee wage computation\bin\Debug\Employee wage computation.exe.config
+C:\Users\Admin\Documents\Day_3\Employee Wage Computation\Employee wage computation\Employee wage computation\bin\Debug\Employee wage computation.exe
+C:\Users\Admin\Documents\Day_3\Employee Wage Computation\Employee wage computation\Employee wage computation\bin\Debug\Employee wage computation.pdb
+C:\Users\Admin\Documents\Day_3\Employee Wage Computation\Employee wage computation\Employee wage computation\obj\Debug\Employee wage computation.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Day_3\Employee Wage Computation\Employee wage computation\Employee wage computation\obj\Debug\Employee wage computation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\Day_3\Employee Wage Computation\Employee wage computation\Employee wage computation\obj\Debug\Employee wage computation.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Day_3\Employee Wage Computation\Employee wage computation\Employee wage computation\obj\Debug\Employee wage computation.exe
+C:\Users\Admin\Documents\Day_3\Employee Wage Computation\Employee wage computation\Employee wage computation\obj\Debug\Employee wage computation.pdb
