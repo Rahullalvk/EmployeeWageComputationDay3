@@ -33,7 +33,7 @@ namespace Employee_wage_computation
                 }
                
             }
-            empWages = empHours * EMP_RATE_PER_HOUR;
+            empWages = empHours * EMP_RATE_PER_HOUR * 20;
             Console.WriteLine("Total wage of the employee :"+ empWages);
        }
     }
