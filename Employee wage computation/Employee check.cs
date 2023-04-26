@@ -21,10 +21,10 @@ namespace Employee_wage_computation
             {
                 switch (empCheck)
                 {
-                    case 0: empCheck = 0;
+                    case 0: empCheck = IS_FULL_TIME;
                         empHours = 0;
                         break;
-                    case 1:empCheck = 1;
+                    case 1:empCheck = IS_PART_TIME;
                         empHours = 8;
                         break;
                     case 2: empCheck = 2;
