@@ -11,15 +11,20 @@ namespace Employee_wage_computation
         public const int EMP_RATE_PER_HOUR = 20;
         public const int IS_FULL_TIME = 1;
         public const int IS_PART_TIME = 2;
-        public const int NUM_OF_WORKING_DAYS = 5;
+        public const int NUM_OF_WORKING_DAYS = 20;
+        public const int MAX_HRS_IN_MONTH = 100;
         public static void EmployeeAttendence()
         {
             int empHours = 0;
             int empWages = 0;
             int totalEmpwages = 0;
-            for (int day = 0; day < NUM_OF_WORKING_DAYS; day++)
-            {
+            int totalWorkingDays = 0;
+            int totalEmphrs = 0;
 
+
+            while(totalEmphrs<=MAX_HRS_IN_MONTH && totalWorkingDays<MAX_HRS_IN_MONTH)
+            {
+                totalWorkingDays++;
                 Random rdm = new Random();
                 int empCheck = rdm.Next(3);
                 switch (empCheck)
@@ -36,11 +41,12 @@ namespace Employee_wage_computation
                 }
 
 
-                empWages = empHours * EMP_RATE_PER_HOUR;
-                Console.WriteLine("Total wage of the employee :" + empWages);
+                totalEmphrs = totalEmphrs + empHours;
+                Console.WriteLine("Day# : " + totalWorkingDays + "Emp hrs :" + empHours);
                 totalEmpwages += empWages;
             }
-            Console.WriteLine("total EmpWages : " + totalEmpwages);
+            int totalEmpWage = totalEmphrs * EMP_RATE_PER_HOUR;
+            Console.WriteLine("total Emp wages : " + totalEmpWage);
         }
     }
 }
